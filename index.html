@@ -1,0 +1,1134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>AgentLocator Web Task</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+
+  <body>
+    <div class="container-fluid">
+      <div class="container-fluid top">
+        <div class="row">
+          <div class="col-md-2"></div>
+
+          <div class="col-md-2 text-center logo">
+            <h2 class="img-fluid logo">Celery.</h2>
+          </div>
+
+          <div class="col-8 navigation">
+            <nav class="navbar navbar-expand-sm navbar-light text-center">
+              <a href="#" class="navbar-brand"></a>
+              <button
+                class="navbar-toggler"
+                data-toggle="collapse"
+                data-target="#navbarMenu"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarMenu">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a href="#" class="nav-link">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#" class="nav-link">Workspace</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#" class="nav-link">Service</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#" class="nav-link">Events</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#" class="nav-link">Reviews</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#" class="nav-link">Contact Us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#" class="nav-link">Login</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#" class="nav-link">Sign up</a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+
+            <form style="background-color:brown; width: 200px; position:absolute;">
+                <label for="fname">First name:</label><br>
+                <input type="text" id="fname" name="fname" value="John"><br>
+                <label for="lname">Last name:</label><br>
+                <input type="text" id="lname" name="lname" value="Doe"><br><br>
+                <input type="submit" value="Submit">
+            </form> 
+              
+
+             <img src="./Fajlovi/image1.png" alt="slika" style="height: 500px; width:500px;">
+           
+          </div>
+        </div>
+      </div>
+
+      <div class="container images">
+        <div class="row d-flex justify-content-center images">
+          <div
+            class="col img-fluid image"
+            style="
+              background-image: url('./Fajlovi/image2.png');
+              margin-right: 25px;
+            "
+          >
+            <button type="button" class="btn btn-default btnInside1">
+              BUYERS
+            </button>
+          </div>
+
+          <div
+            class="col img-fluid image"
+            style="
+              background-image: url('Fajlovi/service2.jpg');
+              margin-right: 25px;
+            "
+          >
+            <button type="button" class="btn btn-default btnInside2">
+              SELLERS
+            </button>
+          </div>
+
+          <div
+            class="col img-fluid image"
+            style="
+              background-image: url('./Fajlovi/image3.jpg');
+              margin-right: 25px;
+            "
+          >
+            <button type="button" class="btn btn-default btnInside1">
+              SEARCH
+            </button>
+          </div>
+
+          <div
+            class="col img-fluid image"
+            style="background-image: url('Fajlovi/service4.jpg')"
+          >
+            <button type="button" class="btn btn-default btnInside2">
+              PROJECT
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="container-fluid d-flex justify-content-center communities">
+        <!--Carousel Wrapper-->
+        <div
+          id="multi-item-example"
+          class="carousel slide carousel-multi-item"
+          data-ride="carousel"
+        >
+          <h4
+            style="
+              font-size: 1rem;
+              color: #b0b1b5;
+              margin-top: 25px;
+              margin-left: 18px;
+              margin-bottom: -20px;
+            "
+            id="communitiesTitle"
+          >
+            COMMUNITIES
+          </h4>
+
+          <!--Controls-->
+          <div class="controls-top">
+            <a
+              class="btn-floating arrowA"
+              href="#multi-item-example"
+              data-slide="prev"
+              ><i class="fa fa-chevron-left"></i
+            ></a>
+
+            <!--Slides-->
+            <div class="carousel-inner" role="listbox">
+              <!--First slide-->
+              <div class="carousel-item active">
+                <div class="container images2">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <img
+                        class="card-img-top firstRowImg"
+                        src="Fajlovi/toronto.jpg"
+                        alt="Card image cap"
+                      />
+
+                      <a
+                        class="btn btn-default btnInside3"
+                        style="color: #ffffff"
+                        >TORONTO</a
+                      >
+                    </div>
+
+                    <div class="col-md-6">
+                      <img
+                        class="card-img-top firstRowImg"
+                        src="Fajlovi/etobicoke.jpg"
+                        alt="Card image cap"
+                      />
+
+                      <a
+                        class="btn btn-default btnInside4"
+                        style="color: #828282"
+                        >ETOBICOKE</a
+                      >
+                    </div>
+                  </div>
+                </div>
+
+                <div class="container images3">
+                  <div class="row">
+                    <div class="col-md-4">
+                      <img
+                        class="card-img-top secondRowImg"
+                        src="Fajlovi/Mississauga.jpg"
+                        alt="Card image cap"
+                      />
+
+                      <a
+                        class="btn btn-default btnInside4"
+                        style="color: #828282"
+                        >MISSISSAUGA</a
+                      >
+                    </div>
+
+                    <div class="col-md-4">
+                      <img
+                        class="card-img-top secondRowImg"
+                        src="Fajlovi/Brampton.jpg"
+                        alt="Card image cap"
+                      />
+
+                      <a
+                        class="btn btn-default btnInside3"
+                        style="color: #ffffff"
+                        >BRAMPTON</a
+                      >
+                    </div>
+
+                    <div class="col-md-4">
+                      <img
+                        class="card-img-top secondRowImg"
+                        src="Fajlovi/Caledon.jpg"
+                        alt="Card image cap"
+                      />
+
+                      <a
+                        class="btn btn-default btnInside4"
+                        style="color: #828282"
+                        >CALEDON</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!--/.First slide-->
+
+              <!--Second slide-->
+              <div class="carousel-item">
+                <div class="container images2">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <img
+                        class="card-img-top firstRowImg"
+                        src="Fajlovi/toronto.jpg"
+                        alt="Card image cap"
+                      />
+
+                      <a
+                        class="btn btn-default btnInside3"
+                        style="color: #ffffff"
+                        >TORONTO</a
+                      >
+                    </div>
+
+                    <div class="col-md-6">
+                      <img
+                        class="card-img-top firstRowImg"
+                        src="Fajlovi/etobicoke.jpg"
+                        alt="Card image cap"
+                      />
+
+                      <a
+                        class="btn btn-default btnInside4"
+                        style="color: #828282"
+                        >ETOBICOKE</a
+                      >
+                    </div>
+                  </div>
+                </div>
+
+                <div class="container images3">
+                  <div class="row">
+                    <div class="col-md-4">
+                      <img
+                        class="card-img-top secondRowImg"
+                        src="Fajlovi/Mississauga.jpg"
+                        alt="Card image cap"
+                      />
+
+                      <a
+                        class="btn btn-default btnInside4"
+                        style="color: #828282"
+                        >MISSISSAUGA</a
+                      >
+                    </div>
+
+                    <div class="col-md-4">
+                      <img
+                        class="card-img-top secondRowImg"
+                        src="Fajlovi/Brampton.jpg"
+                        alt="Card image cap"
+                      />
+
+                      <a
+                        class="btn btn-default btnInside3"
+                        style="color: #ffffff"
+                        >BRAMPTON</a
+                      >
+                    </div>
+
+                    <div class="col-md-4">
+                      <img
+                        class="card-img-top secondRowImg"
+                        src="Fajlovi/Caledon.jpg"
+                        alt="Card image cap"
+                      />
+
+                      <a
+                        class="btn btn-default btnInside4"
+                        style="color: #828282"
+                        >CALEDON</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!--/.Second slide-->
+
+              <!--Third slide-->
+              <div class="carousel-item">
+                <div class="container images2">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <img
+                        class="card-img-top firstRowImg"
+                        src="Fajlovi/toronto.jpg"
+                        alt="Card image cap"
+                      />
+
+                      <a
+                        class="btn btn-default btnInside3"
+                        style="color: #ffffff"
+                        >TORONTO</a
+                      >
+                    </div>
+
+                    <div class="col-md-6">
+                      <img
+                        class="card-img-top firstRowImg"
+                        src="Fajlovi/etobicoke.jpg"
+                        alt="Card image cap"
+                      />
+
+                      <a
+                        class="btn btn-default btnInside4"
+                        style="color: #828282"
+                        >ETOBICOKE</a
+                      >
+                    </div>
+                  </div>
+                </div>
+
+                <div class="container images3">
+                  <div class="row">
+                    <div class="col-md-4">
+                      <img
+                        class="card-img-top secondRowImg"
+                        src="Fajlovi/Mississauga.jpg"
+                        alt="Card image cap"
+                      />
+
+                      <a
+                        class="btn btn-default btnInside4"
+                        style="color: #828282"
+                        >MISSISSAUGA</a
+                      >
+                    </div>
+
+                    <div class="col-md-4">
+                      <img
+                        class="card-img-top secondRowImg"
+                        src="Fajlovi/Brampton.jpg"
+                        alt="Card image cap"
+                      />
+
+                      <a
+                        class="btn btn-default btnInside3"
+                        style="color: #ffffff"
+                        >BRAMPTON</a
+                      >
+                    </div>
+
+                    <div class="col-md-4">
+                      <img
+                        class="card-img-top secondRowImg"
+                        src="Fajlovi/Caledon.jpg"
+                        alt="Card image cap"
+                      />
+
+                      <a
+                        class="btn btn-default btnInside4"
+                        style="color: #828282"
+                        >CALEDON</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!--/.Third slide-->
+            </div>
+
+            <a
+              class="btn-floating arrowB"
+              href="#multi-item-example"
+              data-slide="next"
+              ><i class="fa fa-chevron-right"></i
+            ></a>
+          </div>
+          <!--/.Controls-->
+        </div>
+        <!--/.Carousel Wrapper-->
+      </div>
+
+      <div class="img-fluid middle">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col middleTitle">
+              <h1 style="font-size: 2vh; color: white">
+                WHAT ARE HOMES IN MY NEIGHBOURHOOD SELLING FOR?
+              </h1>
+              <h2 style="font-size: 1.7vh; color: white">
+                Type your address below to find out
+              </h2>
+            </div>
+          </div>
+
+          <form class="form-inline justify-content-center">
+            <div class="form-group form-group-lg">
+              <div class="row">
+                <div class="col">
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="town"
+                    placeholder="Type your property address"
+                  />
+                </div>
+
+                <div class="col">
+                  <button
+                    type="button"
+                    class="btn btn-default propertyButton"
+                    style="border-radius: 0%"
+                  >
+                    FIND OUT
+                  </button>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <div class="container-fluid d-flex justify-content-center properties">
+        <!--Carousel Wrapper-->
+        <div
+          id="multi-item-example2"
+          class="carousel slide carousel-multi-item"
+          data-ride="carousel"
+        >
+          <h4
+            style="
+              font-size: 1rem;
+              color: #b0b1b5;
+              margin-top: 25px;
+              margin-left: 18px;
+              margin-bottom: -20px;
+            "
+            id="communitiesTitle"
+          >
+            PROPERTIES
+          </h4>
+
+          <!--Controls-->
+          <div class="controls-top">
+            <a
+              class="btn-floating arrowA"
+              href="#multi-item-example2"
+              data-slide="prev"
+              ><i class="fa fa-chevron-left"></i
+            ></a>
+
+            <!--Slides-->
+            <div class="carousel-inner" role="listbox">
+              <!--First slide-->
+              <div class="carousel-item active">
+                <div class="container images2">
+                  <div class="row">
+                    <div class="col-md-4">
+                      <img
+                        class="card-img-top firstRowImg"
+                        src="Fajlovi/house1.png"
+                        alt="Card image cap"
+                      />
+
+                      <a class="btn btn-default btnInside4 upperButton"
+                        ><span class="number1"> 4922 21A ST SW, </span>
+                        <span class="location1"> Toronto </span>
+                      </a>
+                    </div>
+
+                    <div class="col-md-4">
+                      <img
+                        class="card-img-top firstRowImg"
+                        src="Fajlovi/house2.jpg"
+                        alt="Card image cap"
+                      />
+
+                      <a class="btn btn-default btnInside3 upperButton"
+                        ><span class="number2"> 852 Riverdale RD, </span>
+                        <span class="location2"> Caledon </span></a
+                      >
+                    </div>
+
+                    <div class="col-md-4">
+                      <img
+                        class="card-img-top firstRowImg"
+                        src="Fajlovi/house3.jpg"
+                        alt="Card image cap"
+                      />
+
+                      <a class="btn btn-default btnInside4 upperButton"
+                        ><span class="number1"> 4589 28B ST SW, </span>
+                        <span class="location1"> Mississauga </span></a
+                      >
+                    </div>
+                  </div>
+                </div>
+
+                <div class="container images3">
+                  <div class="row">
+                    <div class="col-md-4">
+                      <img
+                        class="card-img-top secondRowImg"
+                        src="Fajlovi/house4.jpg"
+                        alt="Card image cap"
+                      />
+
+                      <a class="btn btn-default btnInside3 upperButton"
+                        ><span class="number2"> 4589 28B ST SW, </span>
+                        <span class="location2"> Mississauga </span></a
+                      >
+                    </div>
+
+                    <div class="col-md-4">
+                      <img
+                        class="card-img-top secondRowImg"
+                        src="Fajlovi/house5.jpg"
+                        alt="Card image cap"
+                      />
+
+                      <a class="btn btn-default btnInside4 upperButton"
+                        ><span class="number1"> 4922 21A ST SW, </span>
+                        <span class="location1"> Toronto </span></a
+                      >
+                    </div>
+
+                    <div class="col-md-4">
+                      <img
+                        class="card-img-top secondRowImg"
+                        src="Fajlovi/house6.jpg"
+                        alt="Card image cap"
+                      />
+
+                      <a class="btn btn-default btnInside3 upperButton"
+                        ><span class="number2"> 54 AREA NEW SW, </span>
+                        <span class="location2"> Toronto </span></a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!--/.First slide-->
+
+              <!--Second slide-->
+              <div class="carousel-item">
+                <div class="container images2">
+                  <div class="row">
+                    <div class="col-md-4">
+                      <img
+                        class="card-img-top firstRowImg"
+                        src="Fajlovi/house1.jpg"
+                        alt="Card image cap"
+                      />
+
+                      <a class="btn btn-default btnInside4 upperButton"
+                        ><span class="number1"> 4922 21A ST SW, </span>
+                        <span class="location1"> Toronto </span>
+                      </a>
+                    </div>
+
+                    <div class="col-md-4">
+                      <img
+                        class="card-img-top firstRowImg"
+                        src="Fajlovi/house2.jpg"
+                        alt="Card image cap"
+                      />
+
+                      <a class="btn btn-default btnInside3 upperButton"
+                        ><span class="number2"> 852 Riverdale RD, </span>
+                        <span class="location2"> Caledon </span></a
+                      >
+                    </div>
+
+                    <div class="col-md-4">
+                      <img
+                        class="card-img-top firstRowImg"
+                        src="Fajlovi/house3.jpg"
+                        alt="Card image cap"
+                      />
+
+                      <a class="btn btn-default btnInside4 upperButton"
+                        ><span class="number1"> 4589 28B ST SW, </span>
+                        <span class="location1"> Mississauga </span></a
+                      >
+                    </div>
+                  </div>
+                </div>
+
+                <div class="container images3">
+                  <div class="row">
+                    <div class="col-md-4">
+                      <img class="card-img-top secondRowImg"
+                      src="Fajlovi/house4.jpg" alt="Card image cap" style=>
+
+                      <a class="btn btn-default btnInside3 upperButton"
+                        ><span class="number2"> 4589 28B ST SW, </span>
+                        <span class="location2"> Mississauga </span></a
+                      >
+                    </div>
+
+                    <div class="col-md-4">
+                      <img
+                        class="card-img-top secondRowImg"
+                        src="Fajlovi/house5.jpg"
+                        alt="Card image cap"
+                      />
+
+                      <a class="btn btn-default btnInside4 upperButton"
+                        ><span class="number1"> 4922 21A ST SW, </span>
+                        <span class="location1"> Toronto </span></a
+                      >
+                    </div>
+
+                    <div class="col-md-4">
+                      <img
+                        class="card-img-top secondRowImg"
+                        src="Fajlovi/house6.jpg"
+                        alt="Card image cap"
+                      />
+
+                      <a class="btn btn-default btnInside3 upperButton"
+                        ><span class="number2"> 54 AREA NEW SW, </span>
+                        <span class="location2"> Toronto </span></a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!--/.Second slide-->
+
+              <!--Third slide-->
+              <div class="carousel-item">
+                <div class="container images2">
+                  <div class="row">
+                    <div class="col-md-4">
+                      <img
+                        class="card-img-top firstRowImg"
+                        src="Fajlovi/house1.png"
+                        alt="Card image cap"
+                      />
+
+                      <a class="btn btn-default btnInside4 upperButton"
+                        ><span class="number1"> 4922 21A ST SW, </span>
+                        <span class="location1"> Toronto </span>
+                      </a>
+                    </div>
+
+                    <div class="col-md-4">
+                      <img
+                        class="card-img-top firstRowImg"
+                        src="Fajlovi/house2.jpg"
+                        alt="Card image cap"
+                      />
+
+                      <a class="btn btn-default btnInside3 upperButton"
+                        ><span class="number2"> 852 Riverdale RD, </span>
+                        <span class="location2"> Caledon </span></a
+                      >
+                    </div>
+
+                    <div class="col-md-4">
+                      <img
+                        class="card-img-top firstRowImg"
+                        src="Fajlovi/house3.jpg"
+                        alt="Card image cap"
+                      />
+
+                      <a class="btn btn-default btnInside4 upperButton"
+                        ><span class="number1"> 4589 28B ST SW, </span>
+                        <span class="location1"> Mississauga </span></a
+                      >
+                    </div>
+                  </div>
+                </div>
+
+                <div class="container images3">
+                  <div class="row">
+                    <div class="col-md-4">
+                      <img
+                        class="card-img-top secondRowImg"
+                        src="Fajlovi/house4.jpg"
+                        alt="Card image cap"
+                      />
+
+                      <a class="btn btn-default btnInside3 upperButton"
+                        ><span class="number2"> 4589 28B ST SW, </span>
+                        <span class="location2"> Mississauga </span></a
+                      >
+                    </div>
+
+                    <div class="col-md-4">
+                      <img
+                        class="card-img-top secondRowImg"
+                        src="Fajlovi/house5.jpg"
+                        alt="Card image cap"
+                      />
+
+                      <a class="btn btn-default btnInside4 upperButton"
+                        ><span class="number1"> 4922 21A ST SW, </span>
+                        <span class="location1"> Toronto </span></a
+                      >
+                    </div>
+
+                    <div class="col-md-4">
+                      <img
+                        class="card-img-top secondRowImg"
+                        src="Fajlovi/house6.jpg"
+                        alt="Card image cap"
+                      />
+
+                      <a class="btn btn-default btnInside3 upperButton"
+                        ><span class="number2"> 54 AREA NEW SW, </span>
+                        <span class="location2"> Toronto </span></a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!--/.Third slide-->
+            </div>
+
+            <a
+              class="btn-floating arrowB"
+              href="#multi-item-example2"
+              data-slide="next"
+              ><i class="fa fa-chevron-right"></i
+            ></a>
+          </div>
+          <!--/.Controls-->
+        </div>
+        <!--/.Carousel Wrapper-->
+      </div>
+
+      <div class="img-fluid middle2">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col middleTitle">
+              <h1 style="font-size: 2vh; color: white">
+                WHAT'S YOUR CURRENT HOUSE OR CONDO WORTH?
+              </h1>
+              <h2 style="font-size: 1.7vh; color: white">
+                Type your address below to find out
+              </h2>
+            </div>
+          </div>
+
+          <form class="form-inline justify-content-center">
+            <div class="form-group form-group-lg">
+              <div class="row">
+                <div class="col">
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="town"
+                    placeholder="Type your property address"
+                  />
+                </div>
+
+                <div class="col">
+                  <button
+                    type="button"
+                    class="btn btn-default propertyButton"
+                    style="border-radius: 0%"
+                  >
+                    FIND OUT
+                  </button>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-5 img-fluid womanImg"></div>
+
+          <div class="col-7 description">
+            <div id="descriptionSize">
+              <h1>Tina McCarty</h1>
+              <h6>Standing By YOU Every Step of The Way</h6>
+
+              <p>
+                With 30 years experience in the Real Estate Industry, you can
+                feel confident that all your real estate needs will be looked
+                after, and I will be there Standing By YOU Every Step Of The
+                Way! Starting my career in 1988, as a receptionist, working my
+                way through as a deal secretary, administrator and then an
+                Executive Office Administrator for a large downtown Royal Lepage
+                Brokerage in Toronto, allowed me to spend time with my two
+                children growing up, participating in their schooling, and their
+                organized sport events.
+              </p>
+
+              <p>
+                In 2007, with the support and encouragement of Royal LePage Real
+                Estate Services Inc., it was time to broaden my knowledge, and
+                take the real estate courses with Ontario Real Estate Services
+                Inc., it was time to broaden my knowledge, and take the real
+                estate courses with Ontario Real Estate Association (OREA) to
+                obtain my Real Estate License in Ontario.
+              </p>
+
+              <p>
+                In 2009, I joined Prudential Ronan Realty, Brokerage in my home
+                town of Tottenham. In 2013 Prudential Ronan decided to affiliate
+                with Coldwell Banker. Hence, we are under the umbrella of
+                Coldwell Banker, independently owned and operated.
+              </p>
+
+              <p>
+                A FULL TIME RELATOR® with the upmost integrity, it would be my
+                pleasure to represent you with all your real estate needs.
+                Whether you are buying, selling, or have a friend/family member
+                looking to buy or sell, please call me.
+              </p>
+
+              <p>
+                Perhaps you are looking to renovate, or need a tradesperson in a
+                specific field, give me a call, I would be more than happy to
+                refer you to a trusted resource.
+              </p>
+
+              <p>
+                Proudly, Standing By YOU Every Step Of The Way, and because of
+                all my past clients, it givves me great pšleasure and honor to
+                share with you my accomplishments of being an award winner since
+                my first year in real estate, allowing me to be a top producing
+                RELATOR®
+              </p>
+
+              <span class="icons">
+                <i class="fas fa-phone-alt"> </i> <span>416-885-1445</span>
+                <br />
+              </span>
+              <span class="icons">
+                <i class="fas fa-envelope"></i>
+                <span>tinamccarrty@sympatico.ca</span>
+              </span>
+              <br /><br />
+              <button type="button" class="btn btn-default tinaButton">
+                FIND OUT MORE
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container-fluid testimonial">
+        <div class="container d-flex justify-content-center">
+          <div
+            id="carouselExampleIndicators"
+            class="carousel slide"
+            data-ride="carousel"
+          >
+            <h2 class="h1-responsive font-weight-bold my-5">TESTIMONIALS</h2>
+
+            <div class="container myIndicators">
+              <ol class="carousel-indicators">
+                <li
+                  data-target="#carouselExampleIndicators "
+                  data-slide-to="0 "
+                  class="active"
+                ></li>
+                <li
+                  data-target="#carouselExampleIndicators "
+                  data-slide-to="1 "
+                ></li>
+                <li
+                  data-target="#carouselExampleIndicators "
+                  data-slide-to="2 "
+                ></li>
+              </ol>
+            </div>
+
+            <div class="carousel-inner" style="width: 50vw">
+              <div class="carousel-item active">
+                <p>
+                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                  irure dolor in reprehenderit in volptate velit esse cillum
+                  dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                  cupidatat non proident, sunt in culpa qui officia deserunt
+                  mollit anim id est laborum. duis aute irure dolor in
+                  reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                  nulla pariatur. Excepteur sint occaecat cupidatat non
+                  proident, sunt in culpa qui officia deserunt mollit anim id
+                  est laborum. "
+                </p>
+                <h4 style="font-size: 15px; text-align: center">Anna Deynah</h4>
+              </div>
+              <div class="carousel-item">
+                <p>
+                  "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut
+                  odit aut fugit, sed quia consequuntur magni dolores eos qui
+                  ratione voluptatem sequi nesciunt. Neque porro quisquam est,
+                  qui dolorem ipsum quia dolor sit amet, consectetur, adipisci
+                  velit, sed quia non numquam eius modi tempora incidunt ut
+                  labore. "
+                </p>
+                <h4 style="font-size: 15px; text-align-last: center">
+                  Maria Kate
+                </h4>
+              </div>
+              <div class="carousel-item">
+                <p>
+                  "Duis aute irure dolor in reprehenderit in voluptate velit
+                  esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                  occaecat cupidatat non proident, sunt in culpa qui officia
+                  deserunt mollit anim id est laborum. Sed ut perspiciatis unde
+                  omnis iste natus error sit voluptatem accusantium doloremque
+                  laudantium. "
+                </p>
+                <h4 style="font-size: 15px; text-align: center">John Doe</h4>
+              </div>
+            </div>
+            <a
+              class="carousel-control-prev"
+              href="#carouselExampleIndicators "
+              role="button "
+              data-slide="prev"
+            >
+              <span
+                class="arrows"
+                style="
+                  color: black !important;
+                  font-size: 5vh;
+                  margin-right: 300px;
+                "
+              >
+                &lt
+              </span>
+            </a>
+            <a
+              class="carousel-control-next"
+              href="#carouselExampleIndicators "
+              role="button "
+              data-slide="next"
+            >
+              <span
+                class="arrows"
+                style="
+                  color: black !important;
+                  font-size: 5vh;
+                  margin-right: -300px;
+                "
+              >
+                >
+              </span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="container-fluid bottom">
+        <form id="contactForm">
+          <span id="contactTitle">
+            <h5>CONTACT ME</h5>
+          </span>
+
+          <div id="inputFields">
+            <input
+              type="text"
+              class="form-control"
+              id="fullName"
+              name="fullName"
+              placeholder="Full Name"
+              style="display: inline"
+            />
+
+            <input
+              type="text"
+              class="form-control"
+              id="email"
+              name="email"
+              placeholder="Email Address"
+              style="display: inline; margin-left: 20px"
+            />
+          </div>
+
+          <br />
+
+          <textarea
+            id="message"
+            class="form-control"
+            name="message"
+            placeholder="Message"
+          ></textarea>
+
+          <br />
+
+          <div id="contactIcons">
+            <i class="fas fa-phone-alt"> </i> <span>416-885-1445</span>
+            <i class="fas fa-envelope" style="margin-left: 10px"></i>
+            <span>tinamccarrty@sympatico.ca</span>
+            <i
+              class="fab fa-facebook-f bottomIcon"
+              style="margin-left: 10px"
+            ></i>
+            <i
+              class="fab fa-instagram bottomIcon"
+              style="margin-left: 10px"
+            ></i>
+            <i
+              class="fab fa-linkedin-in bottomIcon"
+              style="margin-left: 10px"
+            ></i>
+            <i class="fab fa-twitter bottomIcon" style="margin-left: 10px"></i>
+          </div>
+
+          <br />
+
+          <button
+            type="button"
+            class="btn btn-default propertyButton"
+            id="contactButton"
+            style="border-radius: 0%"
+          >
+            SEND
+          </button>
+        </form>
+      </div>
+
+      <div class="container-fluid lastSection">
+        <div class="container containerLast">
+          <h5>TINA McCARTY</h5>
+          <hr />
+          <h6>REALTORⓇ</h6>
+
+          <ul id="firstUL">
+            <li>HOME</li>
+            <li>WELCOME</li>
+            <li>FREE REPORTS</li>
+            <li>PROPERTIES</li>
+          </ul>
+
+          <ul id="secondUL">
+            <li>HELPFUL RESOURCES</li>
+            <li>BUYERS</li>
+            <li>SELLERS</li>
+          </ul>
+
+          <div id="lastIcons">
+            <i class="fas fa-phone-alt"> </i> <span>416-885-1445</span> <br />
+            <i class="fas fa-envelope"></i>
+            <span>tinamccarrty@sympatico.ca</span>
+          </div>
+
+          <p>
+            Copyright 2019 All rights reserved. Disclaimer: Information herein
+            deemed reliable but not guaranteed by the CREBⓇ. Listing information
+            last updated on 3/4/2019 at 3:44am MDT. The trademarks REALTORⓇ.
+            REALTORSⓇ and the REALTORⓇ logo are controlled by the Canadian Real
+            Estate Association (CREA) and identify real estate professionals who
+            are members of CREA. The trademarks MLSⓇ, Multiple Listing ServiceⓇ
+            and the associated logos are owned by The Canadian Real Estate
+            Association (CREA) and identify the quality of services provided by
+            real estate professionals who are members of CREA. Used under
+            license. Register | Login
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js "
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo "
+      crossorigin="anonymous "
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js "
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1 "
+      crossorigin="anonymous "
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js "
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM "
+      crossorigin="anonymous "
+    ></script>
+  </body>
+</html>
